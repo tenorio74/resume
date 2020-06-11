@@ -3,115 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Ceaser's Personal Site</title>
+  <title>Ceaser Tenorio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing = "20">
-    <tr>
-      <td><img src="ceaserProfile.png" alt="Ceaser's Profile Picture" style="width:300px;height:300px;"></td>
-      <td><h1>Ceaser Tenorio</h1>
-      <p><em>Graduate Student</em></p>
-      <p>I hold a bachelor's degree in
-        Computer Engineering from <a href="http://www.fullerton.edu/ecs/cpe/degrees/bachelors/index.php">California State Univeristy Fullerton</a>.
-        Currently working towards a Master's of Electrical Engineering
-        at <a href="https://www.csulb.edu/college-of-engineering/ee-graduate-programs">California State University Long Beach.</a></p></td>
-    </tr>
-  </table>
+  <div class="topContainer">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Ceaser.</h1>
+    <h2>an engineer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <hr>
-  <h3>Education</h3>
-  <p>
-  <ul>
-    <li>California State University Long Beach</li>
-    <ul>
-      <li>Master of Science: Electrical Engineering</li>
-      <li>2019 - 2022[Expected]</li>
-    </ul>
-  </ul>
-  <ul>
-    <li>California State University Fullerton</li>
-    <ul>
-      <li>Bachelor of Science: Computer Engineering</li>
-      <li>2013 - 2018</li>
-    </ul>
-  </ul>
-  </p>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing ="10">
-    <thead>
-      <tr>
-        <th>
-          Date
-        </th>
-        <th>
-          Title
-        </th>
-        <th>
-          Employer
-        </th>
-        <th>
-          Location
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018 - Present</td>
-        <td>Facillitator and Lead</td>
-        <td>Walt Disney Parks and Resorts U.S., Inc</td>
-        <td>Disneyland Resort, CA</td>
-      </tr>
-      <tr>
-        <td>2016 - 2018</td>
-        <td>Geek Squad Agent</td>
-        <td>Geek Squad</td>
-        <td>Westminster, CA</td>
-      </tr>
-      </tbody>
-  </table>
-  <hr>
-  <h3>Technical Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>⭐⭐✰</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>SQL</td>
-            <td>⭐⭐✰</td>
-          </tr>
-          <tr>
-            <td>VHDL</td>
-            <td>⭐✰✰</td>
-          </tr>
-          <tr>
-            <td>Verilog</td>
-            <td>⭐✰✰</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
 
-  </table>
-  <hr>
-  <h3><a href="myHobbies.html">My Hobbies</a> <a href="contact.html">Contact Me</a></h3>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="my-img" src="images/ceaserProfile.png" alt="ceaser-img">
+      <h2>Hello.</h2>
+      <p class="intro">I love technology, so much that I hold a bachelor of science degree in computer engineering. Currenly, I am an electrical engineering graduate student looking for work in the following areas: Software Engineering, Computer Engineering, Electrical Engineering, Information Technologies </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/code.png" alt="code-img">
+        <!--
+        <p> Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+        -->
+        <h3>Languages</h3>
+        <p>I have the most experience with C++ and Java.  I also have experience with Python, CSS, HTML, VHDL, Verilog, and SQL.</p>
+      </div>
+      <div class="skill-row">
+        <img class="ee-img" src="images/ee.png" alt="circuit-img">
+        <h3>Technical Skills</h3>
+        <p>I have experience with embedded systems, web design, IT, circuit analysis, deep nueral networks and much more.</p>
+      </div>
+      <div class="skill-row">
+        <img class="softskills-img" src="images/softskills.png" alt="softskills-img">
+        <h3>Soft Skills</h3>
+        <p>I have years of experience with leadership, customer service and porblem solving.  </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="contact-subtitle">If you believe I can be a part of your team, I would love to chat about possible oppurtunies.</h3>
+      <p class="contact-msg">Please reach out via email or LinkedIn.</p>
+      <a class="btn" href="mailto:ceaser.tenorio@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/ceaser-tenorio/">LinkedIn</a>
+    <p class="copyright">© 2020 Ceaser Tenorio @ Tubby Technologies, Inc.</p>
+  </div>
 
 </body>
 
